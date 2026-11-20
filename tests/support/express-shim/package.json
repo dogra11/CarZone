@@ -1,0 +1,7 @@
+{
+  "name": "express-test-shim",
+  "private": true,
+  "description": "TEST-ONLY stand-in for express@4 used when the real package cannot be installed (offline CI). Never shipped or imported by the app directly.",
+  "type": "module",
+  "main": "index.js"
+}

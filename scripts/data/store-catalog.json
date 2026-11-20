@@ -1,0 +1,2684 @@
+{
+ "categories": [
+  {
+   "slug": "interior",
+   "name": "Interior",
+   "description": "Seat covers, floor mats, steering covers and organisers made to fit.",
+   "icon": "car"
+  },
+  {
+   "slug": "exterior",
+   "name": "Exterior",
+   "description": "Body covers, spoilers, chrome garnish, mud flaps and visors.",
+   "icon": "shield"
+  },
+  {
+   "slug": "electronics",
+   "name": "Electronics",
+   "description": "Android stereos, dash cams, cameras, sensors, TPMS and chargers.",
+   "icon": "zap"
+  },
+  {
+   "slug": "lighting",
+   "name": "Lighting",
+   "description": "LED headlamps, fog lamps and ambient lighting kits.",
+   "icon": "sun"
+  },
+  {
+   "slug": "car-care",
+   "name": "Car Care",
+   "description": "Shampoos, waxes, microfibres, polishers and vacuum cleaners.",
+   "icon": "droplet"
+  },
+  {
+   "slug": "safety-security",
+   "name": "Safety & Security",
+   "description": "First-aid kits, extinguishers, steering locks and GPS trackers.",
+   "icon": "lock"
+  },
+  {
+   "slug": "utility",
+   "name": "Utility",
+   "description": "Roof racks, tyre inflators, phone holders and sunshades.",
+   "icon": "settings"
+  },
+  {
+   "slug": "comfort",
+   "name": "Comfort",
+   "description": "Seat cushions, neck pillows and air fresheners.",
+   "icon": "star"
+  },
+  {
+   "slug": "bike-accessories",
+   "name": "Bike Accessories",
+   "description": "Helmets, covers, chain care and mounts for two-wheelers.",
+   "icon": "bike"
+  }
+ ],
+ "products": [
+  {
+   "sku": "CZ-INT-001",
+   "slug": "premium-leatherette-seat-covers-black-tan",
+   "name": "Premium Leatherette Seat Covers (Black-Tan)",
+   "category": "interior",
+   "brand": "CarZone Pro",
+   "kind": "seat",
+   "price": 6499,
+   "mrp": 9999,
+   "opening": 40,
+   "compat": [
+    "Hyundai Creta",
+    "Kia Seltos",
+    "Tata Nexon",
+    "Maruti Suzuki Brezza"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    150,
+    100,
+    60
+   ],
+   "specs": {
+    "Material": "PU leatherette",
+    "Seats covered": "5 seats + headrests",
+    "Colour": "Black with tan inserts",
+    "Brand": "CarZone Pro",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Material: PU leatherette",
+    "Seats covered: 5 seats + headrests",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "Tailor-made seat covers that protect your original upholstery from spills, sweat and wear while giving the cabin a premium, showroom-new look. Premium Leatherette Seat Covers (Black-Tan) by CarZone Pro. Designed for a precise fit on the listed models.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-002",
+   "slug": "3d-luxury-floor-mats",
+   "name": "3D Luxury Floor Mats",
+   "category": "interior",
+   "brand": "AutoNova",
+   "kind": "mat",
+   "price": 2999,
+   "mrp": 4999,
+   "opening": 35,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Maruti Suzuki Baleno",
+    "Hyundai i20",
+    "Tata Altroz"
+   ],
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    40,
+    40,
+    46
+   ],
+   "specs": {
+    "Material": "TPE rubber",
+    "Pieces": "5",
+    "Edge height": "3 cm",
+    "Brand": "AutoNova",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: TPE rubber",
+    "Pieces: 5",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "Precision-cut mats with raised edges that trap mud, water and dust, keeping the floor of your car spotless in every season. 3D Luxury Floor Mats by AutoNova. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-INT-003",
+   "slug": "custom-fit-7d-floor-mats",
+   "name": "Custom-Fit 7D Floor Mats",
+   "category": "interior",
+   "brand": "CarZone Pro",
+   "kind": "mat",
+   "price": 4499,
+   "mrp": 6999,
+   "opening": 25,
+   "compat": [
+    "Mahindra XUV700",
+    "Mahindra Scorpio-N",
+    "Tata Safari",
+    "Tata Harrier",
+    "Toyota Innova Hycross"
+   ],
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    120,
+    80,
+    50
+   ],
+   "specs": {
+    "Material": "Diamond-stitched PU",
+    "Pieces": "6 incl. boot",
+    "Colour": "Tan",
+    "Brand": "CarZone Pro",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Material: Diamond-stitched PU",
+    "Pieces: 6 incl. boot",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "Precision-cut mats with raised edges that trap mud, water and dust, keeping the floor of your car spotless in every season. Custom-Fit 7D Floor Mats by CarZone Pro. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-004",
+   "slug": "microfibre-leather-steering-wheel-cover",
+   "name": "Microfibre Leather Steering Wheel Cover",
+   "category": "interior",
+   "brand": "GripX",
+   "kind": "wheel",
+   "price": 599,
+   "mrp": 1199,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "3 months",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Material": "Microfibre leather",
+    "Diameter": "37-39 cm",
+    "Stitching": "Black",
+    "Brand": "GripX",
+    "Warranty": "3 months"
+   },
+   "features": [
+    "Material: Microfibre leather",
+    "Diameter: 37-39 cm",
+    "Easy installation",
+    "3 months warranty"
+   ],
+   "description": "A grippy, soft-touch steering cover that keeps the wheel cool in the Indian summer and comfortable on long drives. Microfibre Leather Steering Wheel Cover by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-005",
+   "slug": "perforated-sport-steering-cover-red-stitch",
+   "name": "Perforated Sport Steering Cover (Red Stitch)",
+   "category": "interior",
+   "brand": "GripX",
+   "kind": "wheel",
+   "price": 749,
+   "mrp": 1299,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "3 months",
+   "color": [
+    200,
+    40,
+    40
+   ],
+   "specs": {
+    "Material": "Perforated PU",
+    "Diameter": "37-39 cm",
+    "Stitching": "Red",
+    "Brand": "GripX",
+    "Warranty": "3 months"
+   },
+   "features": [
+    "Material: Perforated PU",
+    "Diameter: 37-39 cm",
+    "Easy installation",
+    "3 months warranty"
+   ],
+   "description": "A grippy, soft-touch steering cover that keeps the wheel cool in the Indian summer and comfortable on long drives. Perforated Sport Steering Cover (Red Stitch) by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-006",
+   "slug": "backseat-organiser-with-tablet-holder",
+   "name": "Backseat Organiser with Tablet Holder",
+   "category": "interior",
+   "brand": "DriveMate",
+   "kind": "bag",
+   "price": 899,
+   "mrp": 1499,
+   "opening": 45,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "3 months",
+   "color": [
+    40,
+    40,
+    46
+   ],
+   "specs": {
+    "Pockets": "9",
+    "Tablet size": "Up to 11 inch",
+    "Material": "Oxford cloth",
+    "Brand": "DriveMate",
+    "Warranty": "3 months"
+   },
+   "features": [
+    "Pockets: 9",
+    "Tablet size: Up to 11 inch",
+    "Easy installation",
+    "3 months warranty"
+   ],
+   "description": "A smart organiser that keeps essentials tidy and within reach, so the cabin stays clutter-free. Backseat Organiser with Tablet Holder by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-007",
+   "slug": "seat-gap-filler-set-of-2",
+   "name": "Seat Gap Filler (Set of 2)",
+   "category": "interior",
+   "brand": "DriveMate",
+   "kind": "bag",
+   "price": 449,
+   "mrp": 799,
+   "opening": 70,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Material": "Soft PU",
+    "Pieces": "2",
+    "Length": "45 cm",
+    "Brand": "DriveMate",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Soft PU",
+    "Pieces: 2",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A smart organiser that keeps essentials tidy and within reach, so the cabin stays clutter-free. Seat Gap Filler (Set of 2) by DriveMate. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-008",
+   "slug": "fabric-seat-covers-grey",
+   "name": "Fabric Seat Covers (Grey)",
+   "category": "interior",
+   "brand": "AutoNova",
+   "kind": "seat",
+   "price": 3999,
+   "mrp": 5999,
+   "opening": 30,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Maruti Suzuki Dzire",
+    "Maruti Suzuki Baleno",
+    "Tata Tiago",
+    "Tata Punch"
+   ],
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    110,
+    115,
+    125
+   ],
+   "specs": {
+    "Material": "Breathable jacquard fabric",
+    "Seats covered": "5 seats",
+    "Colour": "Grey",
+    "Brand": "AutoNova",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Breathable jacquard fabric",
+    "Seats covered: 5 seats",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "Tailor-made seat covers that protect your original upholstery from spills, sweat and wear while giving the cabin a premium, showroom-new look. Fabric Seat Covers (Grey) by AutoNova. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-009",
+   "slug": "collapsible-trunk-organiser",
+   "name": "Collapsible Trunk Organiser",
+   "category": "interior",
+   "brand": "DriveMate",
+   "kind": "bag",
+   "price": 1199,
+   "mrp": 1999,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Capacity": "60 litres",
+    "Compartments": "3",
+    "Foldable": "Yes",
+    "Brand": "DriveMate",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Capacity: 60 litres",
+    "Compartments: 3",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A smart organiser that keeps essentials tidy and within reach, so the cabin stays clutter-free. Collapsible Trunk Organiser by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-INT-010",
+   "slug": "dashboard-anti-slip-mat",
+   "name": "Dashboard Anti-slip Mat",
+   "category": "interior",
+   "brand": "GripX",
+   "kind": "mat",
+   "price": 299,
+   "mrp": 499,
+   "opening": 80,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Material": "Silicone gel",
+    "Size": "27 x 15 cm",
+    "Heat resistant": "Up to 80 C",
+    "Brand": "GripX",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Silicone gel",
+    "Size: 27 x 15 cm",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Precision-cut mats with raised edges that trap mud, water and dust, keeping the floor of your car spotless in every season. Dashboard Anti-slip Mat by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-001",
+   "slug": "triple-layer-waterproof-body-cover",
+   "name": "Triple-Layer Waterproof Body Cover",
+   "category": "exterior",
+   "brand": "CarZone Pro",
+   "kind": "cover",
+   "price": 1899,
+   "mrp": 3499,
+   "opening": 40,
+   "compat": [
+    "Hyundai Creta",
+    "Kia Seltos",
+    "Honda Elevate",
+    "Skoda Kushaq",
+    "Volkswagen Taigun",
+    "Maruti Suzuki Grand Vitara"
+   ],
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    150,
+    155,
+    165
+   ],
+   "specs": {
+    "Material": "Triple-layer PEVA + cotton lining",
+    "Waterproof": "Yes",
+    "Mirror pockets": "Yes",
+    "Brand": "CarZone Pro",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Triple-layer PEVA + cotton lining",
+    "Waterproof: Yes",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A weather-proof cover that shields paint from sun, rain, dust and bird droppings when the vehicle is parked outdoors. Triple-Layer Waterproof Body Cover by CarZone Pro. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-EXT-002",
+   "slug": "silver-matty-body-cover",
+   "name": "Silver Matty Body Cover",
+   "category": "exterior",
+   "brand": "AutoNova",
+   "kind": "cover",
+   "price": 999,
+   "mrp": 1799,
+   "opening": 50,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Maruti Suzuki Baleno",
+    "Hyundai i20",
+    "Toyota Glanza",
+    "Tata Altroz"
+   ],
+   "fitment": 0,
+   "warranty": "3 months",
+   "color": [
+    190,
+    195,
+    205
+   ],
+   "specs": {
+    "Material": "Silver taffeta",
+    "UV protection": "Yes",
+    "Elastic hem": "Yes",
+    "Brand": "AutoNova",
+    "Warranty": "3 months"
+   },
+   "features": [
+    "Material: Silver taffeta",
+    "UV protection: Yes",
+    "Easy installation",
+    "3 months warranty"
+   ],
+   "description": "A weather-proof cover that shields paint from sun, rain, dust and bird droppings when the vehicle is parked outdoors. Silver Matty Body Cover by AutoNova. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-003",
+   "slug": "rear-roof-spoiler-gloss-black",
+   "name": "Rear Roof Spoiler (Gloss Black)",
+   "category": "exterior",
+   "brand": "VeloX",
+   "kind": "spoiler",
+   "price": 3499,
+   "mrp": 5499,
+   "opening": 20,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Hyundai i20",
+    "Maruti Suzuki Baleno"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "specs": {
+    "Material": "ABS plastic",
+    "Finish": "Gloss black",
+    "Mounting": "3M tape + screws",
+    "Brand": "VeloX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Material: ABS plastic",
+    "Finish: Gloss black",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A precisely shaped exterior accessory that sharpens the profile of your car and fits with OEM-style mounting points. Rear Roof Spoiler (Gloss Black) by VeloX. Designed for a precise fit on the listed models.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-004",
+   "slug": "chrome-window-garnish-kit",
+   "name": "Chrome Window Garnish Kit",
+   "category": "exterior",
+   "brand": "ChromeLine",
+   "kind": "garnish",
+   "price": 1499,
+   "mrp": 2499,
+   "opening": 30,
+   "compat": [
+    "Honda City",
+    "Hyundai Verna",
+    "Maruti Suzuki Dzire",
+    "Honda Amaze"
+   ],
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    210,
+    215,
+    225
+   ],
+   "specs": {
+    "Material": "ABS chrome",
+    "Pieces": "4 lower window",
+    "Mounting": "3M tape",
+    "Brand": "ChromeLine",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: ABS chrome",
+    "Pieces: 4 lower window",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "Bright chrome accents that add a premium, finished look to the exterior and protect vulnerable edges. Chrome Window Garnish Kit by ChromeLine. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-005",
+   "slug": "mud-flaps-set-of-4",
+   "name": "Mud Flaps (Set of 4)",
+   "category": "exterior",
+   "brand": "GripX",
+   "kind": "flap",
+   "price": 499,
+   "mrp": 899,
+   "opening": 60,
+   "compat": [
+    "Tata Nexon",
+    "Tata Punch",
+    "Maruti Suzuki Brezza",
+    "Hyundai Venue",
+    "Kia Sonet",
+    "Mahindra XUV 3XO",
+    "Renault Kiger"
+   ],
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Material": "Flexible PVC",
+    "Pieces": "4",
+    "Fitting": "Screw-on",
+    "Brand": "GripX",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Flexible PVC",
+    "Pieces: 4",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Tough mud flaps that stop slush and stones from chipping the body panels on Indian roads. Mud Flaps (Set of 4) by GripX. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-006",
+   "slug": "door-visors-with-chrome-line-set-of-4",
+   "name": "Door Visors with Chrome Line (Set of 4)",
+   "category": "exterior",
+   "brand": "ChromeLine",
+   "kind": "visor",
+   "price": 1199,
+   "mrp": 1999,
+   "opening": 35,
+   "compat": [
+    "Hyundai Creta",
+    "Kia Seltos",
+    "MG Hector",
+    "Tata Harrier"
+   ],
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    35,
+    40,
+    50
+   ],
+   "specs": {
+    "Material": "Acrylic",
+    "Pieces": "4",
+    "Accent": "Chrome strip",
+    "Brand": "ChromeLine",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Acrylic",
+    "Pieces: 4",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "Wind deflectors that let you keep windows slightly open in rain while reducing wind noise and cabin heat. Door Visors with Chrome Line (Set of 4) by ChromeLine. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-007",
+   "slug": "door-edge-guards-pack-of-4",
+   "name": "Door Edge Guards (Pack of 4)",
+   "category": "exterior",
+   "brand": "GripX",
+   "kind": "garnish",
+   "price": 349,
+   "mrp": 599,
+   "opening": 90,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    200,
+    205,
+    215
+   ],
+   "specs": {
+    "Material": "Chrome-finish rubber",
+    "Length": "4 x 16 cm",
+    "Mounting": "Self-adhesive",
+    "Brand": "GripX",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Chrome-finish rubber",
+    "Length: 4 x 16 cm",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Bright chrome accents that add a premium, finished look to the exterior and protect vulnerable edges. Door Edge Guards (Pack of 4) by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-EXT-008",
+   "slug": "frameless-wiper-blades-pair",
+   "name": "Frameless Wiper Blades (Pair)",
+   "category": "exterior",
+   "brand": "AutoNova",
+   "kind": "spoiler",
+   "price": 699,
+   "mrp": 1199,
+   "opening": 55,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    15,
+    15,
+    18
+   ],
+   "specs": {
+    "Type": "Frameless silicone",
+    "Sizes": "Fits 14-26 inch",
+    "Adapters": "Included",
+    "Brand": "AutoNova",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Type: Frameless silicone",
+    "Sizes: Fits 14-26 inch",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A precisely shaped exterior accessory that sharpens the profile of your car and fits with OEM-style mounting points. Frameless Wiper Blades (Pair) by AutoNova. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-001",
+   "slug": "9-inch-android-stereo-2gb-32gb",
+   "name": "9-inch Android Stereo (2GB/32GB)",
+   "category": "electronics",
+   "brand": "AutoNova",
+   "kind": "screen",
+   "price": 10999,
+   "mrp": 17999,
+   "opening": 15,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Maruti Suzuki Baleno",
+    "Maruti Suzuki Brezza",
+    "Maruti Suzuki Dzire",
+    "Maruti Suzuki Ertiga",
+    "Hyundai Verna"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    47,
+    140,
+    255
+   ],
+   "specs": {
+    "Screen": "9 inch IPS",
+    "RAM / storage": "2 GB / 32 GB",
+    "Connectivity": "Wired CarPlay, Android Auto, Bluetooth",
+    "Brand": "AutoNova",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Screen: 9 inch IPS",
+    "RAM / storage: 2 GB / 32 GB",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A big touchscreen infotainment upgrade with navigation, smartphone mirroring and a reverse-camera input. 9-inch Android Stereo (2GB/32GB) by AutoNova. Designed for a precise fit on the listed models.",
+   "featured": 1,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-ELC-002",
+   "slug": "10-inch-android-stereo-with-wireless-carplay",
+   "name": "10-inch Android Stereo with Wireless CarPlay",
+   "category": "electronics",
+   "brand": "AutoNova",
+   "kind": "screen",
+   "price": 15999,
+   "mrp": 24999,
+   "opening": 12,
+   "compat": [
+    "Hyundai Creta",
+    "Kia Seltos",
+    "Hyundai Venue",
+    "Kia Sonet",
+    "Tata Nexon"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Screen": "10.1 inch QLED",
+    "RAM / storage": "4 GB / 64 GB",
+    "Connectivity": "Wireless CarPlay & Android Auto",
+    "Brand": "AutoNova",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Screen: 10.1 inch QLED",
+    "RAM / storage: 4 GB / 64 GB",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A big touchscreen infotainment upgrade with navigation, smartphone mirroring and a reverse-camera input. 10-inch Android Stereo with Wireless CarPlay by AutoNova. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-003",
+   "slug": "4k-front-rear-dash-cam",
+   "name": "4K Front + Rear Dash Cam",
+   "category": "electronics",
+   "brand": "DriveMate",
+   "kind": "dashcam",
+   "price": 6499,
+   "mrp": 9999,
+   "opening": 18,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Front camera": "4K 30fps",
+    "Rear camera": "1080p",
+    "Storage": "microSD up to 256 GB",
+    "Brand": "DriveMate",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Front camera: 4K 30fps",
+    "Rear camera: 1080p",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A compact dash camera that records every drive in sharp detail, with loop recording and G-sensor incident lock. 4K Front + Rear Dash Cam by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-004",
+   "slug": "full-hd-dash-cam-with-wi-fi",
+   "name": "Full HD Dash Cam with Wi-Fi",
+   "category": "electronics",
+   "brand": "DriveMate",
+   "kind": "dashcam",
+   "price": 3499,
+   "mrp": 5999,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Resolution": "1080p 30fps",
+    "App": "Wi-Fi app download",
+    "Night vision": "Yes",
+    "Brand": "DriveMate",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Resolution: 1080p 30fps",
+    "App: Wi-Fi app download",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A compact dash camera that records every drive in sharp detail, with loop recording and G-sensor incident lock. Full HD Dash Cam with Wi-Fi by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-005",
+   "slug": "night-vision-reverse-parking-camera",
+   "name": "Night Vision Reverse Parking Camera",
+   "category": "electronics",
+   "brand": "AutoNova",
+   "kind": "camera",
+   "price": 1299,
+   "mrp": 2199,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "specs": {
+    "Viewing angle": "170 degrees",
+    "Waterproof": "IP68",
+    "Guidelines": "Dynamic",
+    "Brand": "AutoNova",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Viewing angle: 170 degrees",
+    "Waterproof: IP68",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "A wide-angle reverse camera that makes parking in tight spaces easy, day or night. Night Vision Reverse Parking Camera by AutoNova. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-006",
+   "slug": "parking-sensor-kit-4-sensors-buzzer",
+   "name": "Parking Sensor Kit (4 Sensors + Buzzer)",
+   "category": "electronics",
+   "brand": "DriveMate",
+   "kind": "sensor",
+   "price": 1499,
+   "mrp": 2499,
+   "opening": 35,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Sensors": "4",
+    "Range": "0.3 - 2.5 m",
+    "Alert": "Buzzer + LED display",
+    "Brand": "DriveMate",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Sensors: 4",
+    "Range: 0.3 - 2.5 m",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "Ultrasonic parking sensors that warn you about obstacles with beeps and a distance display. Parking Sensor Kit (4 Sensors + Buzzer) by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-007",
+   "slug": "solar-tpms-with-4-external-sensors",
+   "name": "Solar TPMS with 4 External Sensors",
+   "category": "electronics",
+   "brand": "VoltEdge",
+   "kind": "tpms",
+   "price": 3299,
+   "mrp": 4999,
+   "opening": 20,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "specs": {
+    "Display": "Colour LCD",
+    "Power": "Solar + USB",
+    "Sensors": "4 external caps",
+    "Brand": "VoltEdge",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Display: Colour LCD",
+    "Power: Solar + USB",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "Real-time tyre pressure and temperature monitoring that alerts you before a puncture becomes dangerous. Solar TPMS with 4 External Sensors by VoltEdge. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-008",
+   "slug": "65w-dual-usb-c-fast-car-charger",
+   "name": "65W Dual USB-C Fast Car Charger",
+   "category": "electronics",
+   "brand": "VoltEdge",
+   "kind": "plug",
+   "price": 999,
+   "mrp": 1799,
+   "opening": 70,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Output": "65 W PD",
+    "Ports": "2 x USB-C",
+    "Input": "12-24 V",
+    "Brand": "VoltEdge",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Output: 65 W PD",
+    "Ports: 2 x USB-C",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A compact, reliable in-car gadget built for 12 V sockets with over-current and short-circuit protection. 65W Dual USB-C Fast Car Charger by VoltEdge. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-ELC-009",
+   "slug": "bluetooth-fm-transmitter",
+   "name": "Bluetooth FM Transmitter",
+   "category": "electronics",
+   "brand": "VoltEdge",
+   "kind": "plug",
+   "price": 799,
+   "mrp": 1299,
+   "opening": 45,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "specs": {
+    "Bluetooth": "5.3",
+    "Ports": "USB-A + USB-C",
+    "Features": "Hands-free calling",
+    "Brand": "VoltEdge",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Bluetooth: 5.3",
+    "Ports: USB-A + USB-C",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A compact, reliable in-car gadget built for 12 V sockets with over-current and short-circuit protection. Bluetooth FM Transmitter by VoltEdge. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-ELC-010",
+   "slug": "obd2-bluetooth-diagnostic-scanner",
+   "name": "OBD2 Bluetooth Diagnostic Scanner",
+   "category": "electronics",
+   "brand": "VoltEdge",
+   "kind": "plug",
+   "price": 1299,
+   "mrp": 2199,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    240,
+    200,
+    60
+   ],
+   "specs": {
+    "Protocol": "OBD2 / EOBD",
+    "Bluetooth": "5.0",
+    "App": "Android & iOS",
+    "Brand": "VoltEdge",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Protocol: OBD2 / EOBD",
+    "Bluetooth: 5.0",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A compact, reliable in-car gadget built for 12 V sockets with over-current and short-circuit protection. OBD2 Bluetooth Diagnostic Scanner by VoltEdge. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-001",
+   "slug": "h4-led-headlamp-bulbs-6000k-pair",
+   "name": "H4 LED Headlamp Bulbs 6000K (Pair)",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "bulb",
+   "price": 2499,
+   "mrp": 3999,
+   "opening": 30,
+   "compat": [
+    "Maruti Suzuki Swift",
+    "Maruti Suzuki Dzire",
+    "Tata Tiago",
+    "Tata Altroz",
+    "Tata Punch"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    220,
+    230,
+    255
+   ],
+   "specs": {
+    "Fitment": "H4",
+    "Colour temperature": "6000K",
+    "Power": "60 W per pair",
+    "Brand": "LumaX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Fitment: H4",
+    "Colour temperature: 6000K",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "High-output LED bulbs with a clean white beam pattern for safer night driving and a modern look. H4 LED Headlamp Bulbs 6000K (Pair) by LumaX. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-002",
+   "slug": "h7-led-headlamp-bulbs-pair",
+   "name": "H7 LED Headlamp Bulbs (Pair)",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "bulb",
+   "price": 2799,
+   "mrp": 4499,
+   "opening": 25,
+   "compat": [
+    "Honda City",
+    "Hyundai Verna",
+    "Hyundai Creta",
+    "Kia Seltos"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    220,
+    230,
+    255
+   ],
+   "specs": {
+    "Fitment": "H7",
+    "Colour temperature": "6500K",
+    "Power": "70 W per pair",
+    "Brand": "LumaX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Fitment: H7",
+    "Colour temperature: 6500K",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "High-output LED bulbs with a clean white beam pattern for safer night driving and a modern look. H7 LED Headlamp Bulbs (Pair) by LumaX. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-003",
+   "slug": "projector-fog-lamps-pair",
+   "name": "Projector Fog Lamps (Pair)",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "lamp",
+   "price": 3999,
+   "mrp": 6499,
+   "opening": 4,
+   "compat": [
+    "Maruti Suzuki Brezza",
+    "Tata Nexon",
+    "Hyundai Venue",
+    "Kia Sonet"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    240,
+    240,
+    255
+   ],
+   "specs": {
+    "Type": "Bi-LED projector",
+    "Lens": "Clear",
+    "Waterproof": "IP67",
+    "Brand": "LumaX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Type: Bi-LED projector",
+    "Lens: Clear",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "Weather-sealed fog lamps that cut through fog, rain and dust with a wide, low beam. Projector Fog Lamps (Pair) by LumaX. Designed for a precise fit on the listed models.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-004",
+   "slug": "yellow-fog-lamp-kit-off-road",
+   "name": "Yellow Fog Lamp Kit (Off-road)",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "lamp",
+   "price": 2999,
+   "mrp": 4999,
+   "opening": 15,
+   "compat": [
+    "Mahindra Thar",
+    "Mahindra Scorpio-N"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    255,
+    200,
+    60
+   ],
+   "specs": {
+    "Colour": "3000K yellow",
+    "Power": "40 W each",
+    "Mount": "Bumper bracket",
+    "Brand": "LumaX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Colour: 3000K yellow",
+    "Power: 40 W each",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "Weather-sealed fog lamps that cut through fog, rain and dust with a wide, low beam. Yellow Fog Lamp Kit (Off-road) by LumaX. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-005",
+   "slug": "rgb-ambient-light-kit-app-control",
+   "name": "RGB Ambient Light Kit (App Control)",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "strip",
+   "price": 1799,
+   "mrp": 2999,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "6 months",
+   "color": [
+    140,
+    90,
+    255
+   ],
+   "specs": {
+    "Colours": "16 million",
+    "Control": "App + remote",
+    "Length": "4 x 2 m strips",
+    "Brand": "LumaX",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Colours: 16 million",
+    "Control: App + remote",
+    "Easy installation - or book fitment at a CarZone centre",
+    "6 months warranty"
+   ],
+   "description": "Ambient lighting that sets the mood inside the cabin with millions of colours and music sync. RGB Ambient Light Kit (App Control) by LumaX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-006",
+   "slug": "footwell-ambient-lights",
+   "name": "Footwell Ambient Lights",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "strip",
+   "price": 899,
+   "mrp": 1499,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    47,
+    140,
+    255
+   ],
+   "specs": {
+    "Pieces": "4",
+    "Power": "USB / 12 V",
+    "Modes": "Music sync",
+    "Brand": "LumaX",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Pieces: 4",
+    "Power: USB / 12 V",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "Ambient lighting that sets the mood inside the cabin with millions of colours and music sync. Footwell Ambient Lights by LumaX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-LGT-007",
+   "slug": "t15-led-reverse-light-bulbs",
+   "name": "T15 LED Reverse Light Bulbs",
+   "category": "lighting",
+   "brand": "LumaX",
+   "kind": "bulb",
+   "price": 699,
+   "mrp": 1199,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "specs": {
+    "Fitment": "T15 / W16W",
+    "Brightness": "1200 lumen",
+    "Canbus": "Error-free",
+    "Brand": "LumaX",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Fitment: T15 / W16W",
+    "Brightness: 1200 lumen",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "High-output LED bulbs with a clean white beam pattern for safer night driving and a modern look. T15 LED Reverse Light Bulbs by LumaX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-001",
+   "slug": "snow-foam-car-shampoo-1l",
+   "name": "Snow Foam Car Shampoo 1L",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "bottle",
+   "price": 549,
+   "mrp": 799,
+   "opening": 80,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    47,
+    140,
+    255
+   ],
+   "specs": {
+    "Volume": "1 litre",
+    "pH": "Neutral",
+    "Dilution": "1:10 foam cannon",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 1 litre",
+    "pH: Neutral",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Snow Foam Car Shampoo 1L by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-CAR-002",
+   "slug": "ceramic-spray-coating-500ml",
+   "name": "Ceramic Spray Coating 500ml",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "bottle",
+   "price": 899,
+   "mrp": 1499,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Volume": "500 ml",
+    "Protection": "Up to 6 months",
+    "Finish": "Hydrophobic gloss",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 500 ml",
+    "Protection: Up to 6 months",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Ceramic Spray Coating 500ml by ShineCraft. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-003",
+   "slug": "carnauba-paste-wax-200g",
+   "name": "Carnauba Paste Wax 200g",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "tin",
+   "price": 749,
+   "mrp": 1199,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Weight": "200 g",
+    "Base": "Brazilian carnauba",
+    "Applicator": "Included",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Weight: 200 g",
+    "Base: Brazilian carnauba",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A rich wax that leaves a deep, warm gloss and a slick, water-beading finish. Carnauba Paste Wax 200g by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-004",
+   "slug": "microfibre-cloth-pack-set-of-6",
+   "name": "Microfibre Cloth Pack (Set of 6)",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "cloth",
+   "price": 399,
+   "mrp": 699,
+   "opening": 100,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    47,
+    140,
+    255
+   ],
+   "specs": {
+    "GSM": "400",
+    "Size": "40 x 40 cm",
+    "Pieces": "6",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "GSM: 400",
+    "Size: 40 x 40 cm",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Ultra-soft microfibre that lifts dirt and buffs to a streak-free shine without scratching. Microfibre Cloth Pack (Set of 6) by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-005",
+   "slug": "dual-action-polisher-kit",
+   "name": "Dual Action Polisher Kit",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "polisher",
+   "price": 5999,
+   "mrp": 8999,
+   "opening": 6,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Power": "750 W",
+    "Orbit": "15 mm",
+    "In the box": "3 pads + case",
+    "Brand": "ShineCraft",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Power: 750 W",
+    "Orbit: 15 mm",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A safe, beginner-friendly dual action polisher that removes swirls and restores gloss. Dual Action Polisher Kit by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-006",
+   "slug": "cordless-handheld-vacuum-120w",
+   "name": "Cordless Handheld Vacuum 120W",
+   "category": "car-care",
+   "brand": "DriveMate",
+   "kind": "vacuum",
+   "price": 2499,
+   "mrp": 3999,
+   "opening": 25,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Suction": "8000 Pa",
+    "Battery": "2 x 2000 mAh",
+    "Filter": "Washable HEPA",
+    "Brand": "DriveMate",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Suction: 8000 Pa",
+    "Battery: 2 x 2000 mAh",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A powerful cordless vacuum that reaches every corner of the cabin and boot. Cordless Handheld Vacuum 120W by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-CAR-007",
+   "slug": "tyre-shine-gel-500ml",
+   "name": "Tyre Shine Gel 500ml",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "bottle",
+   "price": 349,
+   "mrp": 499,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "specs": {
+    "Volume": "500 ml",
+    "Finish": "Satin black",
+    "Water-based": "Yes",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 500 ml",
+    "Finish: Satin black",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Tyre Shine Gel 500ml by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-008",
+   "slug": "interior-detailer-spray",
+   "name": "Interior Detailer Spray",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "bottle",
+   "price": 399,
+   "mrp": 599,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    40,
+    170,
+    120
+   ],
+   "specs": {
+    "Volume": "500 ml",
+    "Surfaces": "Dashboard, plastics, vinyl",
+    "UV protection": "Yes",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 500 ml",
+    "Surfaces: Dashboard, plastics, vinyl",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Interior Detailer Spray by ShineCraft. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-009",
+   "slug": "streak-free-glass-cleaner",
+   "name": "Streak-free Glass Cleaner",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "bottle",
+   "price": 249,
+   "mrp": 399,
+   "opening": 70,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    60,
+    190,
+    220
+   ],
+   "specs": {
+    "Volume": "500 ml",
+    "Ammonia-free": "Yes",
+    "Tint safe": "Yes",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 500 ml",
+    "Ammonia-free: Yes",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Streak-free Glass Cleaner by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CAR-010",
+   "slug": "wash-mitt-drying-towel-combo",
+   "name": "Wash Mitt & Drying Towel Combo",
+   "category": "car-care",
+   "brand": "ShineCraft",
+   "kind": "cloth",
+   "price": 599,
+   "mrp": 999,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Mitt": "Chenille microfibre",
+    "Towel": "1200 GSM twisted loop",
+    "Pieces": "2",
+    "Brand": "ShineCraft",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Mitt: Chenille microfibre",
+    "Towel: 1200 GSM twisted loop",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Ultra-soft microfibre that lifts dirt and buffs to a streak-free shine without scratching. Wash Mitt & Drying Towel Combo by ShineCraft. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-001",
+   "slug": "car-first-aid-kit-govt-approved",
+   "name": "Car First-Aid Kit (Govt. Approved)",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "bag",
+   "price": 549,
+   "mrp": 899,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    220,
+    40,
+    50
+   ],
+   "specs": {
+    "Items": "25+",
+    "Compliance": "Motor vehicle rules",
+    "Case": "Zip pouch",
+    "Brand": "SafeRide",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Items: 25+",
+    "Compliance: Motor vehicle rules",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A smart organiser that keeps essentials tidy and within reach, so the cabin stays clutter-free. Car First-Aid Kit (Govt. Approved) by SafeRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-002",
+   "slug": "abc-fire-extinguisher-1kg",
+   "name": "ABC Fire Extinguisher 1kg",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "extinguisher",
+   "price": 1299,
+   "mrp": 1999,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    220,
+    40,
+    50
+   ],
+   "specs": {
+    "Capacity": "1 kg",
+    "Type": "ABC dry powder",
+    "Mount": "Bracket included",
+    "Brand": "SafeRide",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Capacity: 1 kg",
+    "Type: ABC dry powder",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A compact extinguisher for Class A, B and C fires - an essential safety item for every car. ABC Fire Extinguisher 1kg by SafeRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-003",
+   "slug": "heavy-duty-steering-wheel-lock",
+   "name": "Heavy-Duty Steering Wheel Lock",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "lock",
+   "price": 1499,
+   "mrp": 2499,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    240,
+    200,
+    60
+   ],
+   "specs": {
+    "Material": "Hardened steel",
+    "Keys": "3",
+    "Fits": "Most steering wheels",
+    "Brand": "SafeRide",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Material: Hardened steel",
+    "Keys: 3",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A highly visible steering lock that deters theft and takes seconds to fit. Heavy-Duty Steering Wheel Lock by SafeRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-004",
+   "slug": "4g-gps-tracker-with-live-app",
+   "name": "4G GPS Tracker with Live App",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "tracker",
+   "price": 2999,
+   "mrp": 4999,
+   "opening": 2,
+   "compat": "Universal",
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Network": "4G",
+    "Features": "Live tracking, geofence, engine cut-off",
+    "Subscription": "1 year free",
+    "Brand": "SafeRide",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Network: 4G",
+    "Features: Live tracking, geofence, engine cut-off",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A hidden GPS tracker that shows live location, trip history and alerts on your phone. 4G GPS Tracker with Live App by SafeRide. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-005",
+   "slug": "digital-tyre-pressure-gauge",
+   "name": "Digital Tyre Pressure Gauge",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "plug",
+   "price": 499,
+   "mrp": 799,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    240,
+    200,
+    60
+   ],
+   "specs": {
+    "Range": "3 - 150 PSI",
+    "Display": "Backlit LCD",
+    "Units": "PSI / BAR / KPA",
+    "Brand": "SafeRide",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Range: 3 - 150 PSI",
+    "Display: Backlit LCD",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A compact, reliable in-car gadget built for 12 V sockets with over-current and short-circuit protection. Digital Tyre Pressure Gauge by SafeRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-SAF-006",
+   "slug": "seat-belt-shoulder-pads-pair",
+   "name": "Seat Belt Shoulder Pads (Pair)",
+   "category": "safety-security",
+   "brand": "SafeRide",
+   "kind": "cushion",
+   "price": 299,
+   "mrp": 499,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Material": "Memory foam",
+    "Pieces": "2",
+    "Fastening": "Velcro",
+    "Brand": "SafeRide",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Memory foam",
+    "Pieces: 2",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Ergonomic memory-foam support that reduces fatigue on long drives. Seat Belt Shoulder Pads (Pair) by SafeRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-001",
+   "slug": "aluminium-roof-rail-crossbars",
+   "name": "Aluminium Roof Rail Crossbars",
+   "category": "utility",
+   "brand": "TrailPro",
+   "kind": "rack",
+   "price": 4999,
+   "mrp": 7999,
+   "opening": 12,
+   "compat": [
+    "Mahindra XUV700",
+    "Mahindra Scorpio-N",
+    "Tata Safari",
+    "Tata Harrier",
+    "MG Hector"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    150,
+    155,
+    165
+   ],
+   "specs": {
+    "Material": "Aircraft aluminium",
+    "Load": "75 kg",
+    "Lock": "Anti-theft key",
+    "Brand": "TrailPro",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Material: Aircraft aluminium",
+    "Load: 75 kg",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A sturdy roof-mounted carrier for luggage, bikes and camping gear on road trips. Aluminium Roof Rail Crossbars by TrailPro. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-002",
+   "slug": "roof-carrier-basket",
+   "name": "Roof Carrier Basket",
+   "category": "utility",
+   "brand": "TrailPro",
+   "kind": "rack",
+   "price": 6999,
+   "mrp": 10999,
+   "opening": 8,
+   "compat": [
+    "Mahindra Thar",
+    "Mahindra Scorpio-N",
+    "Toyota Fortuner"
+   ],
+   "fitment": 1,
+   "warranty": "1 year",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Size": "120 x 90 cm",
+    "Load": "75 kg",
+    "Finish": "Powder-coated black",
+    "Brand": "TrailPro",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Size: 120 x 90 cm",
+    "Load: 75 kg",
+    "Easy installation - or book fitment at a CarZone centre",
+    "1 year warranty"
+   ],
+   "description": "A sturdy roof-mounted carrier for luggage, bikes and camping gear on road trips. Roof Carrier Basket by TrailPro. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-003",
+   "slug": "digital-portable-tyre-inflator",
+   "name": "Digital Portable Tyre Inflator",
+   "category": "utility",
+   "brand": "VoltEdge",
+   "kind": "inflator",
+   "price": 2299,
+   "mrp": 3499,
+   "opening": 30,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Max pressure": "150 PSI",
+    "Auto stop": "Yes",
+    "Power": "12 V socket",
+    "Brand": "VoltEdge",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Max pressure: 150 PSI",
+    "Auto stop: Yes",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A portable inflator that sets the exact pressure and stops automatically - perfect for emergencies. Digital Portable Tyre Inflator by VoltEdge. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-UTL-004",
+   "slug": "cordless-rechargeable-tyre-inflator",
+   "name": "Cordless Rechargeable Tyre Inflator",
+   "category": "utility",
+   "brand": "VoltEdge",
+   "kind": "inflator",
+   "price": 3299,
+   "mrp": 4999,
+   "opening": 20,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Battery": "6000 mAh",
+    "Max pressure": "150 PSI",
+    "Extras": "Power bank + torch",
+    "Brand": "VoltEdge",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Battery: 6000 mAh",
+    "Max pressure: 150 PSI",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A portable inflator that sets the exact pressure and stops automatically - perfect for emergencies. Cordless Rechargeable Tyre Inflator by VoltEdge. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-005",
+   "slug": "magnetic-dashboard-phone-holder",
+   "name": "Magnetic Dashboard Phone Holder",
+   "category": "utility",
+   "brand": "GripX",
+   "kind": "holder",
+   "price": 499,
+   "mrp": 899,
+   "opening": 80,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Mount": "Dashboard adhesive",
+    "Magnets": "N52 x 6",
+    "Rotation": "360 degrees",
+    "Brand": "GripX",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Mount: Dashboard adhesive",
+    "Magnets: N52 x 6",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A secure mount that keeps things steady and within reach while you drive. Magnetic Dashboard Phone Holder by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-006",
+   "slug": "15w-wireless-charging-phone-holder",
+   "name": "15W Wireless Charging Phone Holder",
+   "category": "utility",
+   "brand": "GripX",
+   "kind": "holder",
+   "price": 1799,
+   "mrp": 2799,
+   "opening": 35,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "1 year",
+   "color": [
+    47,
+    140,
+    255
+   ],
+   "specs": {
+    "Charging": "15 W Qi",
+    "Mount": "AC vent clip",
+    "Auto-clamp": "Yes",
+    "Brand": "GripX",
+    "Warranty": "1 year"
+   },
+   "features": [
+    "Charging: 15 W Qi",
+    "Mount: AC vent clip",
+    "Easy installation",
+    "1 year warranty"
+   ],
+   "description": "A secure mount that keeps things steady and within reach while you drive. 15W Wireless Charging Phone Holder by GripX. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-007",
+   "slug": "foldable-windshield-sunshade",
+   "name": "Foldable Windshield Sunshade",
+   "category": "utility",
+   "brand": "DriveMate",
+   "kind": "shade",
+   "price": 599,
+   "mrp": 999,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    190,
+    195,
+    205
+   ],
+   "specs": {
+    "Size": "130 x 70 cm",
+    "Layers": "Reflective 5-layer",
+    "Folds to": "Pouch size",
+    "Brand": "DriveMate",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Size: 130 x 70 cm",
+    "Layers: Reflective 5-layer",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A reflective sunshade that keeps the cabin cooler and protects the dashboard from UV damage. Foldable Windshield Sunshade by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-UTL-008",
+   "slug": "magnetic-side-window-sunshades-set-of-4",
+   "name": "Magnetic Side Window Sunshades (Set of 4)",
+   "category": "utility",
+   "brand": "DriveMate",
+   "kind": "shade",
+   "price": 1299,
+   "mrp": 1999,
+   "opening": 25,
+   "compat": [
+    "Hyundai Creta",
+    "Kia Seltos",
+    "Hyundai Venue",
+    "Kia Sonet"
+   ],
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Pieces": "4",
+    "Mount": "Magnetic",
+    "UV block": "Up to 90%",
+    "Brand": "DriveMate",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Pieces: 4",
+    "Mount: Magnetic",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A reflective sunshade that keeps the cabin cooler and protects the dashboard from UV damage. Magnetic Side Window Sunshades (Set of 4) by DriveMate. Designed for a precise fit on the listed models.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-001",
+   "slug": "memory-foam-seat-cushion",
+   "name": "Memory Foam Seat Cushion",
+   "category": "comfort",
+   "brand": "ComfyRide",
+   "kind": "cushion",
+   "price": 1499,
+   "mrp": 2499,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    40,
+    40,
+    46
+   ],
+   "specs": {
+    "Material": "Memory foam",
+    "Cover": "Removable mesh",
+    "Size": "45 x 40 cm",
+    "Brand": "ComfyRide",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Memory foam",
+    "Cover: Removable mesh",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "Ergonomic memory-foam support that reduces fatigue on long drives. Memory Foam Seat Cushion by ComfyRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-002",
+   "slug": "memory-foam-neck-pillow-pair",
+   "name": "Memory Foam Neck Pillow (Pair)",
+   "category": "comfort",
+   "brand": "ComfyRide",
+   "kind": "pillow",
+   "price": 999,
+   "mrp": 1599,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    150,
+    100,
+    60
+   ],
+   "specs": {
+    "Material": "Memory foam",
+    "Pieces": "2",
+    "Strap": "Adjustable",
+    "Brand": "ComfyRide",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Memory foam",
+    "Pieces: 2",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "Ergonomic memory-foam support for the neck and back on long journeys. Memory Foam Neck Pillow (Pair) by ComfyRide. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-003",
+   "slug": "lumbar-support-pillow",
+   "name": "Lumbar Support Pillow",
+   "category": "comfort",
+   "brand": "ComfyRide",
+   "kind": "pillow",
+   "price": 899,
+   "mrp": 1399,
+   "opening": 35,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    40,
+    40,
+    46
+   ],
+   "specs": {
+    "Material": "Memory foam",
+    "Strap": "Adjustable",
+    "Cover": "Washable",
+    "Brand": "ComfyRide",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Material: Memory foam",
+    "Strap: Adjustable",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "Ergonomic memory-foam support for the neck and back on long journeys. Lumbar Support Pillow by ComfyRide. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 1
+  },
+  {
+   "sku": "CZ-CMF-004",
+   "slug": "gel-air-freshener-ocean",
+   "name": "Gel Air Freshener - Ocean",
+   "category": "comfort",
+   "brand": "AromaDrive",
+   "kind": "jar",
+   "price": 249,
+   "mrp": 399,
+   "opening": 90,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    60,
+    190,
+    220
+   ],
+   "specs": {
+    "Weight": "80 g",
+    "Fragrance": "Ocean breeze",
+    "Lasts": "Up to 45 days",
+    "Brand": "AromaDrive",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Weight: 80 g",
+    "Fragrance: Ocean breeze",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A long-lasting premium fragrance that keeps the cabin fresh. Gel Air Freshener - Ocean by AromaDrive. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-005",
+   "slug": "vent-clip-air-fresheners-set-of-3",
+   "name": "Vent Clip Air Fresheners (Set of 3)",
+   "category": "comfort",
+   "brand": "AromaDrive",
+   "kind": "jar",
+   "price": 349,
+   "mrp": 599,
+   "opening": 70,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    201,
+    169,
+    97
+   ],
+   "specs": {
+    "Pieces": "3",
+    "Fragrances": "Oud, lemon, lavender",
+    "Lasts": "30 days each",
+    "Brand": "AromaDrive",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Pieces: 3",
+    "Fragrances: Oud, lemon, lavender",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A long-lasting premium fragrance that keeps the cabin fresh. Vent Clip Air Fresheners (Set of 3) by AromaDrive. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-006",
+   "slug": "premium-car-perfume-oud",
+   "name": "Premium Car Perfume - Oud",
+   "category": "comfort",
+   "brand": "AromaDrive",
+   "kind": "jar",
+   "price": 449,
+   "mrp": 699,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    110,
+    60,
+    30
+   ],
+   "specs": {
+    "Volume": "60 ml",
+    "Fragrance": "Oud & amber",
+    "Placement": "Dashboard",
+    "Brand": "AromaDrive",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 60 ml",
+    "Fragrance: Oud & amber",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A long-lasting premium fragrance that keeps the cabin fresh. Premium Car Perfume - Oud by AromaDrive. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-CMF-007",
+   "slug": "headrest-coat-hanger-hooks-pair",
+   "name": "Headrest Coat Hanger Hooks (Pair)",
+   "category": "comfort",
+   "brand": "DriveMate",
+   "kind": "holder",
+   "price": 299,
+   "mrp": 499,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Load": "Up to 5 kg",
+    "Pieces": "2",
+    "Fits": "Most headrests",
+    "Brand": "DriveMate",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Load: Up to 5 kg",
+    "Pieces: 2",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A secure mount that keeps things steady and within reach while you drive. Headrest Coat Hanger Hooks (Pair) by DriveMate. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-001",
+   "slug": "full-face-helmet-isi-certified",
+   "name": "Full-Face Helmet (ISI Certified)",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "helmet",
+   "price": 2499,
+   "mrp": 3999,
+   "opening": 25,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    220,
+    40,
+    50
+   ],
+   "specs": {
+    "Certification": "ISI / BIS",
+    "Size": "M / L",
+    "Visor": "Anti-scratch",
+    "Brand": "RideOn",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Certification: ISI / BIS",
+    "Size: M / L",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A lightweight, certified helmet with a clear anti-scratch visor and comfortable padding. Full-Face Helmet (ISI Certified) by RideOn. Universal fit for most cars.",
+   "featured": 1,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-002",
+   "slug": "waterproof-bike-body-cover",
+   "name": "Waterproof Bike Body Cover",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "cover",
+   "price": 499,
+   "mrp": 899,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "3 months",
+   "color": [
+    25,
+    25,
+    28
+   ],
+   "specs": {
+    "Material": "190T polyester",
+    "Waterproof": "Yes",
+    "Lock holes": "Yes",
+    "Brand": "RideOn",
+    "Warranty": "3 months"
+   },
+   "features": [
+    "Material: 190T polyester",
+    "Waterproof: Yes",
+    "Easy installation",
+    "3 months warranty"
+   ],
+   "description": "A weather-proof cover that shields paint from sun, rain, dust and bird droppings when the vehicle is parked outdoors. Waterproof Bike Body Cover by RideOn. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-003",
+   "slug": "chain-lube-spray-150ml",
+   "name": "Chain Lube Spray 150ml",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "bottle",
+   "price": 349,
+   "mrp": 499,
+   "opening": 60,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    240,
+    140,
+    40
+   ],
+   "specs": {
+    "Volume": "150 ml",
+    "Type": "Synthetic",
+    "Fling-free": "Yes",
+    "Brand": "RideOn",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 150 ml",
+    "Type: Synthetic",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Chain Lube Spray 150ml by RideOn. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-004",
+   "slug": "handlebar-phone-mount",
+   "name": "Handlebar Phone Mount",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "holder",
+   "price": 699,
+   "mrp": 1199,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "6 months",
+   "color": [
+    240,
+    140,
+    40
+   ],
+   "specs": {
+    "Mount": "Handlebar clamp",
+    "Lock": "Quick release",
+    "Phones": "4.7 - 7 inch",
+    "Brand": "RideOn",
+    "Warranty": "6 months"
+   },
+   "features": [
+    "Mount: Handlebar clamp",
+    "Lock: Quick release",
+    "Easy installation",
+    "6 months warranty"
+   ],
+   "description": "A secure mount that keeps things steady and within reach while you drive. Handlebar Phone Mount by RideOn. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-005",
+   "slug": "anti-slip-tank-pad",
+   "name": "Anti-slip Tank Pad",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "mat",
+   "price": 399,
+   "mrp": 699,
+   "opening": 40,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    30,
+    30,
+    34
+   ],
+   "specs": {
+    "Material": "Rubber + carbon look",
+    "Mount": "Self-adhesive",
+    "Pieces": "3",
+    "Brand": "RideOn",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Material: Rubber + carbon look",
+    "Mount: Self-adhesive",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "Precision-cut mats with raised edges that trap mud, water and dust, keeping the floor of your car spotless in every season. Anti-slip Tank Pad by RideOn. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  },
+  {
+   "sku": "CZ-BIK-006",
+   "slug": "bike-cleaner-spray",
+   "name": "Bike Cleaner Spray",
+   "category": "bike-accessories",
+   "brand": "RideOn",
+   "kind": "bottle",
+   "price": 299,
+   "mrp": 449,
+   "opening": 50,
+   "compat": "Universal",
+   "fitment": 0,
+   "warranty": "No warranty",
+   "color": [
+    40,
+    170,
+    120
+   ],
+   "specs": {
+    "Volume": "500 ml",
+    "Safe on": "Paint, chrome, plastics",
+    "Biodegradable": "Yes",
+    "Brand": "RideOn",
+    "Warranty": "No warranty"
+   },
+   "features": [
+    "Volume: 500 ml",
+    "Safe on: Paint, chrome, plastics",
+    "Easy installation",
+    "Genuine CarZone quality check"
+   ],
+   "description": "A professional-grade formula used by CarZone detailers, now packed for easy home use. Bike Cleaner Spray by RideOn. Universal fit for most cars.",
+   "featured": 0,
+   "deal": 0
+  }
+ ]
+}

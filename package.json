@@ -1,0 +1,26 @@
+{
+  "name": "carzone",
+  "version": "2.0.0",
+  "description": "CarZone - Car Wash, Detailing & Accessories. React frontend + Node.js/Express REST API + MySQL.",
+  "type": "module",
+  "main": "server.js",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:setup": "node src/db/setup.js",
+    "db:build-seed": "node scripts/build-seed.js",
+    "build:client": "node client/build/esbuild.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --import ./tests/support/register-shim.js --test \"tests/*.test.js\"",
+    "start:test-db": "node --disable-warning=ExperimentalWarning --import ./tests/support/register-shim.js server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.0"
+  },
+  "keywords": ["car-wash", "detailing", "accessories", "e-commerce", "react", "nodejs", "express", "mysql", "razorpay", "final-year-project"],
+  "license": "MIT"
+}

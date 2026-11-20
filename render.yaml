@@ -1,0 +1,45 @@
+# =====================================================================
+# render.yaml - Render "Blueprint": describes the CarZone web service as code.
+# Render reads this file when you choose  New > Blueprint  and pick this repository.
+#
+# - The React front end is already built (client/dist is committed), so the build step
+#   only installs the two server packages (express, mysql2).
+# - The database is NOT on Render: it is a free TiDB Cloud Starter instance
+#   (MySQL-compatible, TLS required). Its connection details are entered by you in
+#   the Render dashboard ("sync: false" = never stored in Git).
+# - Full click-by-click guide: docs/DEPLOYMENT.md
+# =====================================================================
+services:
+  - type: web
+    name: carzone                 # becomes https://carzone-xxxx.onrender.com (Render adds a suffix if taken)
+    runtime: node
+    plan: free
+    region: singapore             # closest free region to India and to TiDB Mumbai/Singapore
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health  # 200 = app + database OK, 503 = database down
+    autoDeployTrigger: commit     # every push to the connected branch redeploys
+    envVars:
+      - key: NODE_ENV
+        value: production         # 0.0.0.0 binding, Secure cookies, trust proxy, SESSION_SECRET required
+      - key: NODE_VERSION
+        value: "22"               # Render's Node.js version selector (package.json engines: >=18.18)
+      - key: TZ
+        value: Asia/Kolkata       # show and compute dates/slots in Indian time (server clocks are UTC)
+      - key: SESSION_SECRET
+        generateValue: true       # Render creates a long random secret once - never commit secrets
+      - key: DEMO_MODE
+        value: "true"             # no mail server: password-reset links are shown on screen
+      # ---- TiDB Cloud Starter connection (copy from TiDB console > Connect) ----
+      - key: DB_SSL
+        value: "true"             # TiDB Cloud only accepts TLS connections
+      - key: DB_HOST
+        sync: false               # e.g. gateway01.ap-south-1.prod.aws.tidbcloud.com
+      - key: DB_PORT
+        sync: false               # 4000 for TiDB
+      - key: DB_USER
+        sync: false               # e.g. 2aBcDeFgHiJkLmN.root
+      - key: DB_PASSWORD
+        sync: false               # the generated TiDB password
+      - key: DB_NAME
+        sync: false               # carzone_db

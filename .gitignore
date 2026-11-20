@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------
+# Never commit these (GitHub Desktop / git will skip them)
+# ---------------------------------------------------------------
+
+# Installed packages - recreated by "npm install" (also on Render)
+node_modules/
+client/node_modules/
+
+# Secrets: real passwords and keys live ONLY in .env (local) or the Render dashboard
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.pem
+*.key
+
+# Local databases and test databases
+*.db
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Generated output (tests, screenshots, coverage, zips)
+test-output/
+screenshots/
+shots/
+coverage/
+*.zip
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# NOTE: client/dist (the built React app) is deliberately NOT ignored.
+# It is committed so Render can serve it without building React.
