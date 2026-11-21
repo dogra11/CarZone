@@ -45,7 +45,7 @@ export default function Book() {
   const [errors, setErrors] = useState({});
   const [s, setS] = useState({
     vehicleId: null, vehicleType: params.get('vehicle') || '', brand: '', model: '', registrationNo: '', saveVehicle: true,
-    serviceId: null, addonIds: [], bookingDate: '', timeSlotId: null, pickupDrop: false,
+    serviceId: null, addonIds: [], bookingDate: '', timeSlotId: null, pickupDrop: false, payAtCentre: false,
     address: [user?.address, user?.city, user?.pincode].filter(Boolean).join(', '), instructions: '', couponCode: '',
   });
   const [couponInput, setCouponInput] = useState('');
@@ -90,7 +90,7 @@ export default function Book() {
 
   const chosenVehicle = vehicles.data?.find((v) => v.id === s.vehicleId);
   const payload = () => ({
-    ...pick(s, ['serviceId', 'addonIds', 'bookingDate', 'timeSlotId', 'pickupDrop', 'address', 'instructions']),
+    ...pick(s, ['serviceId', 'addonIds', 'bookingDate', 'timeSlotId', 'pickupDrop', 'address', 'instructions', 'payAtCentre']),
     ...(s.couponCode ? { couponCode: s.couponCode } : {}),
     ...(chosenVehicle
       ? { vehicleId: chosenVehicle.id, vehicleType: chosenVehicle.vehicleType, brand: chosenVehicle.brand, model: chosenVehicle.model, registrationNo: chosenVehicle.registrationNo }
@@ -124,8 +124,13 @@ export default function Book() {
     setSubmitting(true);
     try {
       const res = await api.post('/api/bookings', data);
-      toast.success(res.message, `Booking ${res.booking.code} reserved`);
-      navigate(`/pay/booking/${res.booking.id}`);
+      if (data.payAtCentre) {
+        toast.success('Pay by cash or UPI at the centre.', `Booking ${res.booking.code} confirmed`);
+        navigate(`/confirmation/booking/${res.booking.id}`);
+      } else {
+        toast.success(res.message, `Booking ${res.booking.code} reserved`);
+        navigate(`/pay/booking/${res.booking.id}`);
+      }
     } catch (err) {
       if (err.fields) { setErrors(err.fields); setStep(Math.min(...Object.keys(err.fields).map((f) => FIELD_STEP[f] || 5))); }
       if (err.status === 409) set({ timeSlotId: null, bookingDate: s.bookingDate });
@@ -257,13 +262,22 @@ export default function Book() {
                   <div className="row"><span>Pickup &amp; drop</span><b>{s.pickupDrop ? 'Yes - doorstep pickup' : 'No - I will visit the centre'}</b></div>
                   <div className="row"><span>Address</span><b>{s.address}</b></div>
                 </div>
-                <div className="alert alert-info mt-3"><Icon name="info" /><p>Your slot is held as soon as you confirm; pay on the next screen to confirm it. Free cancellation up to {meta?.rules.freeCancelHours ?? 24} hours before the slot.</p></div>
+                <span className="label mt-3" style={{ display: 'block' }}>How would you like to pay?</span>
+                <div className="choice-grid mt-1">
+                  <label className="choice"><input type="radio" name="paymode" checked={!s.payAtCentre} onChange={() => set({ payAtCentre: false })} />
+                    <span className="choice-box"><span className="check-mark"><Icon name="check" /></span><Icon name="credit-card" /><span className="choice-title">Pay online now</span><span className="choice-sub">Card, UPI, net banking or wallet</span></span></label>
+                  <label className="choice"><input type="radio" name="paymode" checked={s.payAtCentre} onChange={() => set({ payAtCentre: true })} />
+                    <span className="choice-box"><span className="check-mark"><Icon name="check" /></span><Icon name="receipt" /><span className="choice-title">Pay at the centre</span><span className="choice-sub">Cash or UPI after your wash</span></span></label>
+                </div>
+                <div className="alert alert-info mt-3"><Icon name="info" /><p>{s.payAtCentre
+                  ? <>Your slot is confirmed straight away - pay {b ? money(b.totalPaise) : 'the bill'} by cash or UPI when you collect your vehicle.</>
+                  : 'Your slot is held as soon as you confirm; pay on the next screen to confirm it.'} Free cancellation up to {meta?.rules.freeCancelHours ?? 24} hours before the slot.</p></div>
               </>
             )}
             <div className="wizard-nav">
               {step === 1 ? <Link className="btn btn-ghost" to="/services">Back to services</Link> : <button className="btn btn-ghost" onClick={() => setStep(step - 1)}>Back</button>}
               {step < 5 ? <button className="btn btn-primary" onClick={next}>Continue</button>
-                : <button className={`btn btn-primary btn-lg ${submitting ? 'is-loading' : ''}`} disabled={submitting} onClick={confirm}>Confirm &amp; pay {b ? money(b.totalPaise) : ''}</button>}
+                : <button className={`btn btn-primary btn-lg ${submitting ? 'is-loading' : ''}`} disabled={submitting} onClick={confirm}>{s.payAtCentre ? 'Confirm booking' : <>Confirm &amp; pay {b ? money(b.totalPaise) : ''}</>}</button>}
             </div>
           </div>
           <aside className="sticky">

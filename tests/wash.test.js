@@ -198,3 +198,33 @@ test('full slot is refused with 409', async () => {
   const r = await c.post('/api/bookings', bookingInput({ registrationNo: 'MH12ZZ2222', timeSlotId: 1, bookingDate: date }));
   assert.equal(r.status, 409);
 });
+
+test('pay at the centre: confirmed without paying online, settled when the wash is completed', async () => {
+  const r = await c.post('/api/bookings', bookingInput({ registrationNo: 'MH12PC1001', timeSlotId: 6, bookingDate: isoDate(4), payAtCentre: true }));
+  assert.equal(r.status, 201);
+  const b = r.data.booking;
+  assert.equal(b.status, 'confirmed', 'confirmed straight away');
+  assert.equal(b.paymentStatus, 'pay_at_centre');
+  assert.equal(b.actions.pay, false, 'no online payment needed');
+  assert.equal(b.payments.length, 1);
+  assert.equal(b.payments[0].status, 'pending');
+  assert.equal(b.payments[0].amountPaise, b.bill.totalPaise);
+
+  await run('UPDATE bookings SET booking_date = ? WHERE id = ?', isoDate(0), b.id);   // wash day arrives
+  assert.equal((await admin.patch(`/api/admin/bookings/${b.id}/status`, { status: 'in_progress' })).status, 200);
+  const done = await admin.patch(`/api/admin/bookings/${b.id}/status`, { status: 'completed' });
+  assert.equal(done.status, 200);
+  const after = (await c.get(`/api/bookings/${b.id}`)).data;
+  assert.equal(after.paymentStatus, 'paid', 'cash collected on completion');
+  assert.equal(after.payments[0].status, 'success');
+  assert.equal(after.actions.invoice, true);
+});
+
+test('pay at the centre: cancelling closes the pending cash payment, no refund', async () => {
+  const b = (await c.post('/api/bookings', bookingInput({ registrationNo: 'MH12PC1002', timeSlotId: 6, bookingDate: isoDate(6), payAtCentre: true }))).data.booking;
+  const x = await c.post(`/api/bookings/${b.id}/cancel`, { reason: 'Plans changed' });
+  assert.equal(x.status, 200);
+  assert.equal(x.data.booking.status, 'cancelled');
+  assert.equal(x.data.booking.refund, null, 'nothing was paid, nothing to refund');
+  assert.equal(x.data.booking.payments[0].status, 'cancelled');
+});

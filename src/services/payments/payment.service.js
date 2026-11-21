@@ -274,6 +274,23 @@ export async function createCodPayment(orderId, userId, amountPaise) {
   );
 }
 
+/** "Pay at the centre" for a wash booking: a pending cash payment, settled when the wash is completed. */
+export async function createPayAtCentrePayment(bookingId, userId, amountPaise) {
+  await run(
+    `INSERT INTO payments (payment_ref, purpose, booking_id, user_id, gateway, amount_paise, currency, method, method_detail, status, attempts, expires_at, created_at, updated_at)
+     VALUES (?, 'booking', ?, ?, 'cod', ?, 'INR', 'cod', 'Pay at centre (cash / UPI)', 'pending', 0, ?, ?, ?)`,
+    `PAY-${randomCode(8)}`, bookingId, userId, amountPaise, nowSql(60 * 24 * 60), nowSql(), nowSql(),
+  );
+}
+
+/** Cash / UPI collected at the centre when the wash is completed. */
+export async function settlePayAtCentre(bookingId) {
+  await run(
+    "UPDATE payments SET status = 'success', gateway_payment_id = ?, verified_at = ?, updated_at = ? WHERE booking_id = ? AND gateway = 'cod' AND status = 'pending'",
+    `cash_${randomCode(12)}`, nowSql(), nowSql(), bookingId,
+  );
+}
+
 /** COD cash collected when the order is delivered. */
 export async function settleCod(orderId) {
   await run(

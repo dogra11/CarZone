@@ -11,6 +11,8 @@
  * so we never get a booking without a slot or a slot count without a booking.
  * The booking starts as 'pending_payment' and becomes 'confirmed' only after the payment
  * module has verified a payment (services/payments/payment.service.js).
+ * PAY AT THE CENTRE: if the customer chooses it, the booking is 'confirmed' straight away with
+ * a pending cash payment, which is marked paid when the admin completes the wash.
  */
 import { one, all, run, transaction } from '../db/connection.js';
 import { config } from '../config/index.js';
@@ -24,7 +26,7 @@ import { calculateBill } from './pricing.service.js';
 import { validateCoupon, redeemCoupon, releaseCoupon } from './coupon.service.js';
 import { reserveSlot, releaseSlot } from './slot.service.js';
 import { addHistory } from './history.service.js';
-import { createRefund, successfulPayment, cancelOpenPayments } from './payments/payment.service.js';
+import { createRefund, successfulPayment, cancelOpenPayments, createPayAtCentrePayment, settlePayAtCentre } from './payments/payment.service.js';
 
 const ACTIVE_STATUSES = ['pending_payment', 'confirmed', 'rescheduled', 'in_progress'];
 
@@ -98,9 +100,10 @@ export async function createBooking(user, input) {
                              booking_date, time_slot_id, pickup_drop, address, instructions, status,
                              base_price_paise, addons_paise, pickup_fee_paise, discount_paise, tax_paise, total_paise,
                              coupon_id, coupon_code, created_at, updated_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending_payment', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       code, user.id, service.id, vehicle.id, vehicle.type, vehicle.brand, vehicle.model, vehicle.reg,
       input.bookingDate, input.timeSlotId, input.pickupDrop ? 1 : 0, input.address, input.instructions ?? null,
+      input.payAtCentre ? 'confirmed' : 'pending_payment',
       bill.basePricePaise, bill.addonsPaise, bill.pickupFeePaise, bill.discountPaise, bill.taxPaise, bill.totalPaise,
       coupon?.id ?? null, coupon?.code ?? null, nowSql(), nowSql(),
     );
@@ -108,7 +111,12 @@ export async function createBooking(user, input) {
       await run('INSERT INTO booking_addons (booking_id, addon_id, addon_name, price_paise) VALUES (?, ?, ?, ?)', bookingId, a.id, a.name, a.pricePaise);
     }
     if (coupon) await redeemCoupon(coupon, user.id, { bookingId }, bill.discountPaise);
-    await addHistory(bookingId, null, 'pending_payment', 'Booking created - awaiting payment', user.id);
+    if (input.payAtCentre) {
+      await createPayAtCentrePayment(bookingId, user.id, bill.totalPaise);
+      await addHistory(bookingId, null, 'confirmed', 'Booking confirmed - pay at the centre (cash / UPI)', user.id);
+    } else {
+      await addHistory(bookingId, null, 'pending_payment', 'Booking created - awaiting payment', user.id);
+    }
 
     return getBookingDetail(bookingId, user);
   });
@@ -130,6 +138,7 @@ const BOOKING_SELECT = `
          u.name AS customer_name, u.email AS customer_email, u.phone AS customer_phone,
          (SELECT p.status FROM payments p WHERE p.booking_id = b.id AND p.status <> 'created' ORDER BY p.id DESC LIMIT 1) AS last_payment_status,
          (SELECT p.id FROM payments p WHERE p.booking_id = b.id AND p.status IN ('success', 'refund_pending', 'refunded') ORDER BY p.id DESC LIMIT 1) AS paid_payment_id,
+         (SELECT p.id FROM payments p WHERE p.booking_id = b.id AND p.gateway = 'cod' AND p.status = 'pending' ORDER BY p.id DESC LIMIT 1) AS pay_at_centre_id,
          r.status AS refund_status, r.amount_paise AS refund_paise, r.refund_percent, r.refund_ref,
          rv.id AS review_id, rv.rating AS review_rating, rv.status AS review_status
     FROM bookings b
@@ -145,6 +154,7 @@ function paymentStatusOf(r) {
   if (r.refund_status === 'processed') return r.refund_percent === 100 ? 'refunded' : 'partially_refunded';
   if (r.refund_status === 'pending') return 'refund_pending';
   if (r.paid_payment_id) return 'paid';
+  if (r.pay_at_centre_id) return 'pay_at_centre';
   if (r.last_payment_status === 'failed') return 'failed';
   return 'unpaid';
 }
@@ -369,6 +379,7 @@ export async function adminUpdateStatus(id, admin, { status, note }) {
       `UPDATE bookings SET status = ?, completed_at = CASE WHEN ? = 'completed' THEN ? ELSE completed_at END, updated_at = ? WHERE id = ?`,
       status, status, nowSql(), nowSql(), id,
     );
+    if (status === 'completed') await settlePayAtCentre(id);              // cash / UPI collected at the counter
     const defaultNote = status === 'in_progress' ? 'Vehicle received - service started' : 'Service completed - vehicle ready';
     await addHistory(id, r.status, status, note || defaultNote, admin.id);
   });

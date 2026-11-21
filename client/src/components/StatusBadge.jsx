@@ -12,7 +12,7 @@ const PILL = {
   paid: ['success', 'Paid'], success: ['success', 'Success'], unpaid: ['muted', 'Unpaid'], failed: ['danger', 'Failed'],
   refund_pending: ['warning', 'Refund pending'], refunded: ['gold', 'Refunded'], partially_refunded: ['gold', 'Partly refunded'],
   pending: ['warning', 'Pending'], processed: ['success', 'Processed'], approved: ['success', 'Approved'], rejected: ['danger', 'Rejected'],
-  created: ['muted', 'Created'], cancelled: ['muted', 'Cancelled'], cod: ['blue', 'Cash on delivery'],
+  created: ['muted', 'Created'], cancelled: ['muted', 'Cancelled'], cod: ['blue', 'Cash on delivery'], pay_at_centre: ['blue', 'Pay at centre'],
   new: ['blue', 'New'], read: ['muted', 'Read'], resolved: ['success', 'Resolved'], active: ['success', 'Active'], inactive: ['muted', 'Inactive'],
 };
 

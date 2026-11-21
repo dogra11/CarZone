@@ -21,7 +21,8 @@ export default function Confirmation() {
   let body = <Loader />;
   if (q.error) body = <ErrorState error={q.error} onRetry={q.reload} />;
   else if (t) {
-    const done = isBooking ? t.paymentStatus === 'paid' : t.status !== 'pending_payment' && t.status !== 'cancelled';
+    const atCentre = isBooking && t.paymentStatus === 'pay_at_centre';
+    const done = isBooking ? (t.paymentStatus === 'paid' || atCentre) : t.status !== 'pending_payment' && t.status !== 'cancelled';
     const cod = !isBooking && t.paymentMethod === 'cod';
     const detailUrl = isBooking ? `/bookings/${t.id}` : `/orders/${t.id}`;
     const invoiceUrl = isBooking ? `/api/bookings/${t.id}/invoice` : `/api/orders/${t.id}/invoice`;
@@ -31,7 +32,7 @@ export default function Confirmation() {
         <span className="eyebrow">{isBooking ? (done ? 'Booking confirmed' : 'Booking reserved') : (done ? 'Order placed' : 'Awaiting payment')}</span>
         <h1 style={{ fontSize: 'clamp(2rem,4vw,2.8rem)' }}>{done ? 'You are all set!' : 'Almost there'}</h1>
         <p className="lead" style={{ margin: '0 auto' }}>
-          {!done ? 'Complete the payment to confirm it.' : isBooking ? 'Your slot is confirmed. Everything is saved in your dashboard - see you soon.'
+          {!done ? 'Complete the payment to confirm it.' : atCentre ? 'Your slot is confirmed. Please pay by cash or UPI at the centre when you collect your vehicle.' : isBooking ? 'Your slot is confirmed. Everything is saved in your dashboard - see you soon.'
             : cod ? 'Your order is confirmed. Please keep the exact amount ready - pay in cash or UPI when it is delivered.' : 'Payment received. We will pack and ship your order shortly.'}
         </p>
         <div className="booking-code">{t.code}</div>
@@ -39,7 +40,7 @@ export default function Confirmation() {
           {isBooking ? (
             <div className="grid grid-2">
               <dl className="kv"><dt>Service</dt><dd>{t.service.name}</dd><dt>Vehicle</dt><dd>{t.vehicle.brand} {t.vehicle.model}</dd><dt>Type</dt><dd>{vehicleLabel(t.vehicle.type)}</dd></dl>
-              <dl className="kv"><dt>Date</dt><dd>{formatDate(t.bookingDate)}</dd><dt>Time</dt><dd>{slotText(t.slot)}</dd><dt>{done ? 'Paid' : 'Amount due'}</dt><dd><b>{money(t.bill.totalPaise)}</b></dd></dl>
+              <dl className="kv"><dt>Date</dt><dd>{formatDate(t.bookingDate)}</dd><dt>Time</dt><dd>{slotText(t.slot)}</dd><dt>{done && !atCentre ? 'Paid' : atCentre ? 'Pay at centre' : 'Amount due'}</dt><dd><b>{money(t.bill.totalPaise)}</b></dd></dl>
             </div>
           ) : (
             <div className="grid grid-2">

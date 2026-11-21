@@ -244,6 +244,7 @@ export const schemas = {
     address: { label: 'Address', type: 'string', required: true, min: 10, max: 200 },
     instructions: { label: 'Special instructions', type: 'string', max: 500 },
     couponCode: { label: 'Coupon code', type: 'code' },
+    payAtCentre: { label: 'Pay at the centre', type: 'bool', default: false },
   },
   reschedule: {
     bookingDate: { label: 'New date', type: 'date', required: true },
