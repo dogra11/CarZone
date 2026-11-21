@@ -136,7 +136,9 @@ const BOOKING_SELECT = `
     JOIN services s ON s.id = b.service_id
     JOIN time_slots t ON t.id = b.time_slot_id
     JOIN users u ON u.id = b.user_id
-    LEFT JOIN refunds r ON r.payment_id IN (SELECT p2.id FROM payments p2 WHERE p2.booking_id = b.id)
+    LEFT JOIN (SELECT p2.booking_id, r2.status, r2.amount_paise, r2.refund_percent, r2.refund_ref
+                 FROM refunds r2 JOIN payments p2 ON p2.id = r2.payment_id
+                WHERE p2.booking_id IS NOT NULL) r ON r.booking_id = b.id
     LEFT JOIN reviews rv ON rv.booking_id = b.id`;
 
 function paymentStatusOf(r) {

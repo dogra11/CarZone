@@ -202,8 +202,10 @@ async function categoriesReport(from, to) {
             COALESCE(SUM(i.quantity), 0) AS units, COALESCE(SUM(i.line_total_paise), 0) AS revenue_paise
        FROM product_categories c
        LEFT JOIN products p ON p.category_id = c.id
-       LEFT JOIN order_items i ON i.product_id = p.id
-            AND i.order_id IN (SELECT o.id FROM orders o WHERE o.status NOT IN ('cancelled', 'returned', 'pending_payment') AND o.created_at BETWEEN ? AND ?)
+       LEFT JOIN (SELECT oi.product_id, oi.quantity, oi.line_total_paise
+                    FROM order_items oi JOIN orders o ON o.id = oi.order_id
+                   WHERE o.status NOT IN ('cancelled', 'returned', 'pending_payment') AND o.created_at BETWEEN ? AND ?) i
+              ON i.product_id = p.id
       GROUP BY c.id, c.name ORDER BY revenue_paise DESC`, dayStart(from), dayEnd(to),
   );
   const total = sum(rows, 'revenue_paise') || 1;
